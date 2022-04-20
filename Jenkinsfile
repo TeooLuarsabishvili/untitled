@@ -11,7 +11,7 @@ pipeline {
 
         stage('maven run') {
           steps {
-            sh 'mvn clean test'
+            bat 'mvn clean test'
           }
         }
 
